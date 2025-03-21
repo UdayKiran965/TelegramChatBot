@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Initialize Cohere API
-cohere_client = cohere.Client('raFq7VA9yIRDcglQKnUhyz7pANqJxjrNO0c01HMU')
+cohere_client = cohere.Client('Confidential')
 
 # Define start command
 async def start(update: Update, context: CallbackContext) -> None:
